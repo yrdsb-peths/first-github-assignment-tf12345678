@@ -7,4 +7,9 @@ public class Student
     name = nm;
     grade = grd;
   }
+
+  public String toString()
+  {
+    return name + ", grade " + grd;
+  }
 }
